@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+p {margin: 10px 0;}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 40%;
+    height: 50%;
+}
+
+input {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 7px;
+    border: unset;
+    border-bottom: 2px solid #798ecb;
+    outline: none;
+    width: 30%;
+}
+
+.message {
+    align-content: center;
+    border-bottom-color: aquamarine;
+    margin: 15px 0;
+    padding: 7px;
+    height: 100%;
+    border: unset;
+    border-bottom: 2px solid #798ecb;
+    outline: none;
+}
